@@ -1,4 +1,4 @@
-.payment-success-container {
+.payment-failed-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,7 +6,7 @@
   background-color: #f9f9f9;
 }
 
-.payment-success-card {
+.payment-failed-card {
   background: #ffffff;
   padding: 20px 30px;
   border-radius: 10px;
@@ -16,22 +16,30 @@
   width: 90%;
 }
 
-.payment-success-title {
+.payment-failed-title {
   font-size: 2rem;
-  color: #28a745;
+  color: red;
   margin-bottom: 10px;
 }
 
-.payment-success-message {
+.payment-failed-message {
   font-size: 1.2rem;
   color: #555;
   margin-bottom: 20px;
 }
 
-.payment-success-reference {
+.payment-failed-reference {
   font-size: 1rem;
   color: #333;
   background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.payment-failed-failed {
+  font-size: 1rem;
+  color: #333;
+  background-color: rgb(255, 213, 0);
   padding: 10px;
   border-radius: 5px;
 }
